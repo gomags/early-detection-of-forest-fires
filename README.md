@@ -1,5 +1,10 @@
 # early-detection-of-forest-fires
 
+Folder Structure:
+- Algerian_Forest_Fire.ipynb: contains code for data processing and model building and results
+- algerian_fires_test.csv: test set
+- algerian_fires_train.csv: train set
+
 ## Problem Statement
 
 The forest fire dataset from UCI machine learning repository contains area of forest fire and used
@@ -16,7 +21,8 @@ create new features if necessary to capture past effects. Main challenge in this
 limited data and performing feature engineering while keeping in mind the ultimate step to output
 a generalized model.
 
-##Dataset
+## Dataset
+
 The dataset contains weather data from two regions in Algeria over a period of 3 months during
 summer from June 1, 2012 to Sept 30, 2012. A total of 184 records from June to August in
 training set and 60 records in test data of September month. The histogram on dataset says
